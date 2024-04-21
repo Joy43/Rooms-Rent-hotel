@@ -1,0 +1,114 @@
+[
+  {
+    "hotel_id": "1",
+    "name": "Luxury Grand Hotel",
+    "address": "123 Main St, City, Country",
+    "phone": "+1234567890",
+    "email": "info@luxurygrandhotel.com",
+    "image_url": "https://i.ibb.co/KDy9kcm/4.png",
+    "rooms": [
+      {
+        "room_id": "101",
+        "type": "Single",
+        "price": 100,
+        "availability": true
+      },
+      {
+        "room_id": "102",
+        "type": "Double",
+        "price": 150,
+        "availability": true
+      },
+      {
+        "room_id": "103",
+        "type": "Suite",
+        "price": 250,
+        "availability": false
+      }
+    ]
+  },
+  {
+    "hotel_id": "2",
+    "name": "Cozy Inn",
+    "address": "456 Park Ave, City, Country",
+    "phone": "+0987654321",
+    "email": "reservations@cozyinn.com",
+    "image_url": "https://i.ibb.co/qm9xRPY/5.png",
+    "rooms": [
+      {
+        "room_id": "201",
+        "type": "Single",
+        "price": 80,
+        "availability": true
+      },
+      {
+        "room_id": "202",
+        "type": "Double",
+        "price": 130,
+        "availability": true
+      },
+      {
+        "room_id": "203",
+        "type": "Suite",
+        "price": 220,
+        "availability": true
+      }
+    ]
+  },
+  {
+    "hotel_id": "3",
+    "name": "Ocean View Resort",
+    "address": "789 Beach Rd, City, Country",
+    "phone": "+1122334455",
+    "email": "info@oceanviewresort.com",
+    "image_url": "https://i.ibb.co/7gx821c/2.png",
+    "rooms": [
+      {
+        "room_id": "301",
+        "type": "Single",
+        "price": 120,
+        "availability": true
+      },
+      {
+        "room_id": "302",
+        "type": "Double",
+        "price": 180,
+        "availability": true
+      },
+      {
+        "room_id": "303",
+        "type": "Suite",
+        "price": 280,
+        "availability": false
+      }
+    ]
+  },
+  {
+    "hotel_id": "4",
+    "name": "Mountain Lodge",
+    "address": "101 Hilltop Rd, City, Country",
+    "phone": "+3344556677",
+    "email": "reservations@mountainlodge.com",
+    "image_url": "https://i.ibb.co/f0mJFr3/8.png",
+    "rooms": [
+      {
+        "room_id": "401",
+        "type": "Single",
+        "price": 90,
+        "availability": true
+      },
+      {
+        "room_id": "402",
+        "type": "Double",
+        "price": 140,
+        "availability": true
+      },
+      {
+        "room_id": "403",
+        "type": "Suite",
+        "price": 240,
+        "availability": true
+      }
+    ]
+  }
+]
