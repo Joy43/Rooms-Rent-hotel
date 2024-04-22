@@ -4,6 +4,8 @@ import Home from "../Pages/Home/Home/Home";
 import Errorpage from "../Pages/ErrorPage/ErrorPage";
 import Login from "../Authentication/Login/Login";
 import SignUp from "../Authentication/Singnup/Signup";
+import CheckoutFrom from "../Pages/Home/Roomrent/CheckoutFrom";
+import CityRooms from "../Pages/CityTrending/CityRooms";
 
 export const router = createBrowserRouter([
   {
@@ -22,6 +24,18 @@ export const router = createBrowserRouter([
       {
         path: "/signup",
         element: <SignUp></SignUp>,
+      },
+      {
+        path: "/book",
+        element: <CheckoutFrom />,
+        // loader: ({ params }) =>
+        //   fetch(`http://localhost:5000/booking/${params.id}`)
+        //     .then((response) => response.json())
+        //     .then((data) => ({ roomData: data })),
+      },
+      {
+        path: "/cityroom",
+        element: <CityRooms></CityRooms>,
       },
     ],
   },

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { FaShoppingCart } from "react-icons/fa";
 
-import logo from "../../../assets/hotel.png";
+import logo from "../../../assets/images/hotel rent.png";
 
 import { AuthContext } from "../../../Authentication/AuthProvider";
 const NavBar = () => {
@@ -89,7 +89,7 @@ const NavBar = () => {
           </div>
           <Link to="/">
             <a className=" bg-transparent normal-case text-xl">
-              <img className="w-40 h-14" src={logo} alt="" />
+              <img className="w-20 h-14" src={logo} alt="" />
             </a>
           </Link>
         </div>
@@ -111,14 +111,17 @@ const NavBar = () => {
                 </div>
                 <div
                   tabIndex={0}
-                  className="dropdown-content z-[1] card card-compact w-64 p-2 shadow bg-primary text-primary-content"
+                  className="dropdown-content z-[1] card card-compact -ml-20 w-64 p-2 shadow bg-slate-950 text-primary-content"
                 >
-                  <div className="card-body text-black bg-[#ffe] ">
+                  <div className="card-body  text-black bg-[#ffe] ">
                     <h3 className="text-lg">
                       <span>Name:- {user?.displayName}</span>{" "}
                     </h3>
                     <p>Gmail:- {user?.email}</p>
-                    <button onClick={handleLogOut} className="btn btn-accent">
+                    <button
+                      onClick={handleLogOut}
+                      className="btn btn-secondary"
+                    >
                       LogOut
                     </button>
                   </div>
